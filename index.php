@@ -7,6 +7,6 @@
 
 get_header();
 ?>
-<button class="btn btn-primary">Test Button</button>
+
 <?php
 get_footer();
