@@ -16,7 +16,7 @@ class ASM_THEME {
 
 		// Load class.
 		Assets::get_instance();
-		// Menus::get_instance();
+		Menus::get_instance();
 		// Meta_Boxes::get_instance();
 		// Sidebars::get_instance();
 		// Blocks::get_instance();
@@ -50,6 +50,36 @@ class ASM_THEME {
 		] );
 		
 		add_theme_support( 'post-thumbnails' );
+		
+		// rss feed
+		add_theme_support( 'automatic-feed-links' );
+
+		add_theme_support( 
+			'html5', 
+			[
+				'search-form',
+				'comment-form',
+				'comment-list',
+				'gallery',
+				'caption',
+				'script',
+				'style'
+			]
+		);
+
+		// add support for tiny mce editor
+		add_editor_style();
+		add_theme_support('wp-block-styles');
+
+		// add support for images to be wide or full width
+		add_theme_support('align-wide');
+
+		// sets maximum content width
+		global $content_width;
+		if( ! isset( $content_width ) ) {
+			$content_width = 1240;
+		}
+
 
 	}
 
