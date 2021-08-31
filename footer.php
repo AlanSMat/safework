@@ -2,7 +2,7 @@
 /**
  * Footer file
  * 
- * @package safework
+ * @package asm
  */
 ?>
     <div>    <!-- content -->

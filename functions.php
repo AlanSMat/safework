@@ -2,7 +2,7 @@
 /**
  * Theme Functions
  * 
- * @package SWA
+ * @package ASM
  */
 
 if ( ! defined( 'ASM_DIR_PATH' ) ) {
@@ -14,7 +14,7 @@ if ( ! defined( 'ASM_DIR_URI' ) ) {
 }
 
 require_once ASM_DIR_PATH . '/inc/helpers/autoloader.php';
-//require_once AQUILA_DIR_PATH . '/inc/helpers/template-tags.php';
+//require_once ASM_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function asm_get_theme_instance() {
 	\ASM_THEME\Inc\ASM_THEME::get_instance();

@@ -2,7 +2,7 @@
 /**
  * Main navigation file
  * 
- * @package safework
+ * @package ASM
  */
 
 $menu_class = \ASM_THEME\Inc\Menus::get_instance();
@@ -39,7 +39,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
             if( ! $has_children ) :
           ?>
               <li class="nav-item">
-                <a class="nav-link" href="<?php esc_url( $menu_item->url ) ?>"><?php echo esc_html( $menu_item->title ) ?></a>
+                <a class="nav-link" href="<?php echo esc_url( $menu_item->url ) ?>"><?php echo esc_html( $menu_item->title ) ?></a>
               </li>
             <?php 
               else :  
