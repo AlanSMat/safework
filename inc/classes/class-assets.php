@@ -43,9 +43,9 @@ class Assets {
 	public function register_scripts() {
 		// Register scripts
 		wp_register_script( 'main-js', ASM_DIR_URI .'/assets/js/main.js', [], filemtime( ASM_DIR_PATH . '/assets/js/main.js' ), true );
-		wp_register_script( 'bootstrap-js', ASM_DIR_URI .'/assets/src/libraries/bootstrap/js/bootstrap.min.js', [ 'jquery' ], false, true );
-
-    	// enqueue scriptss
+		wp_register_script( 'bootstrap-js', ASM_DIR_URI .'/assets/src/libraries/bootstrap/js/bootstrap.min.js', [ 'jquery' ], null, true );
+		
+    	// enqueue scripts
     	wp_enqueue_script( 'bootstrap-js' );
     	wp_enqueue_script( 'main-js' );
 	}
