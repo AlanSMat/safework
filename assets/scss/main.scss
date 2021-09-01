@@ -1,9 +1,5 @@
+@use 'base';
 @use 'abstracts' as *;
-// @use 'base';
-// @use 'components';
-// @use 'layouts';
+@use 'components' as c;
+@use 'layouts';
 // @use 'utils';
-
-body {
-    color: $primary-font-color;
-}
