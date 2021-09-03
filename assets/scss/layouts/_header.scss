@@ -1,0 +1,27 @@
+@use '../abstracts/' as *;
+
+header {    
+    /* home page hero */
+    .carousel-item {
+        height:465px;
+        background: url(assets/images/banner/consruction.jpg);
+    }
+
+    #wrapper-footer {
+        padding: 15px 0;
+        background-color: $color-secondary;
+        .site-info {
+            color: white;
+        }
+    }
+
+    .page-title {
+        background-color: $color-grey-300;
+        padding: 0.3em 0 0.3em 2em;
+        font-weight: 600;
+        font-size: 1.5em;
+        color: $color-secondary;
+        border-bottom: 1px solid $color-grey-700;
+    }
+}
+

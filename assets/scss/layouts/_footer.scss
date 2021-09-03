@@ -1,0 +1,28 @@
+@use '../abstracts/' as *;
+
+footer {
+    background-color: $color-grey-600;
+    .container {
+        padding: 3em 0;
+    }
+    h5 {
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    h5, p, ul, li {
+        color: #fff;
+    }
+    ul {
+        padding-left: 1.3rem;
+        li {
+            padding: .2rem 0;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            a:hover {
+                color: $color-grey-300;
+            }
+        }
+    }
+}

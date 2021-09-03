@@ -1,0 +1,79 @@
+@use '../abstracts/' as *;
+
+.top-nav {
+    padding: 0.5em 1.5em 0.5em 2em;
+    background-color: $color-primary;
+    // .navbar-toggler {
+    //     background-color: #fff;
+    // }
+    .navbar-collapse {
+        .nav-item {
+            a {
+                color: #fff;
+                font-weight: normal;
+            }
+            a:hover {
+                color: #ccc;
+            }
+            .dropdown-menu {
+                background-color: $color-grey-200;
+                padding: 0;
+                border: 1px solid $color-grey-700;
+                .dropdown-item {
+                    background-color: #fff;
+                    padding: 0.6em;
+                }
+                .dropdown-item:hover {
+                    background-color: #ccc;
+                    padding: 0.6em;
+                }
+
+                a {
+                    color: $color-grey-700;
+                    font-weight: normal;
+                }
+            }
+        }
+ 
+    }
+}
+
+.main-nav {
+    padding: 1.5em 1.5em 1.5em 2em;
+    background-color: #fff;
+    // .navbar-toggler {
+    //     background-color: #fff;
+    // }
+    .navbar-collapse {
+        .nav-item {
+            a {
+                color: $color-grey-700;
+                font-weight: normal;
+            }
+            a:hover {
+                color: #ccc;
+            }
+            .dropdown-menu {
+                background-color: $color-grey-200;
+                padding: 0;
+                border: 1px solid $color-grey-200;
+                .dropdown-item {
+                    background-color: #fff;
+                    padding: 0.6em;
+                }
+                .dropdown-item:hover {
+                    background-color: #ccc;
+                    padding: 0.6em;
+                }
+
+                a {
+                    color: $color-grey-200;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    border-top: 1px solid $color-secondary;
+    border-bottom: 1px solid $color-secondary;
+}

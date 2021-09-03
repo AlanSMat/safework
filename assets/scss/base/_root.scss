@@ -1,0 +1,25 @@
+/** default css for main styles */
+@use '../abstracts/' as *;
+
+body,
+header,
+footer,
+p {
+    color: $color-grey-700;
+}
+header {
+
+}
+footer {
+
+}
+p {
+
+}
+a {
+    color: $color-primary;
+
+    &:hover {
+        color: $color-grey-700;
+    }
+}
