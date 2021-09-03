@@ -30,6 +30,7 @@ class Menus {
 	public function register_menus() {
 		register_nav_menus(
 			array(
+			  'asm-top-bar-menu' => esc_html__( 'Top Bar Menu','asm' ),
 			  'asm-header-menu' => esc_html__( 'Header Menu','asm' ),
 			  'asm-footer-menu' => esc_html__( 'Footer Menu','asm' )
 			)

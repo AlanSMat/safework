@@ -13,6 +13,10 @@ if ( ! defined( 'ASM_DIR_URI' ) ) {
 	define( 'ASM_DIR_URI', untrailingslashit( get_template_directory_uri() ) );
 }
 
+if ( ! defined( 'ASM_ASSETS_URI' ) ) {
+	define( 'ASM_ASSETS_URI', untrailingslashit( get_template_directory_uri() ) . "/assets" );
+}
+
 require_once ASM_DIR_PATH . '/inc/helpers/autoloader.php';
 //require_once ASM_DIR_PATH . '/inc/helpers/template-tags.php';
 

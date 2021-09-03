@@ -6,7 +6,7 @@
  */
 
 get_header();
-?>
-<div>Single Page</div>
-<?php
+
+get_template_part('template-parts/content');
+
 get_footer();
