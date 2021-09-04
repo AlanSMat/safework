@@ -1,5 +1,5 @@
 <div id="primary">
-    <main id="main" class="site-main mt-5" role="main">
+    <main id="main" class="site-main" role="main">
         <?php if( have_posts() ) :  ?>
             <div class="container">
                 <div class="row">

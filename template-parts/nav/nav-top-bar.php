@@ -11,7 +11,7 @@ $top_bar_menu_id = $menu_class->get_menu_id( 'asm-top-bar-menu' );
 $top_bar_menus = wp_get_nav_menu_items( $top_bar_menu_id );
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark top-nav">
-  <img src="<?php echo ASM_ASSETS_URI ?>/images/spacer.gif" width="1" height="50">
+  <?php get_template_part('template-parts/icons/social-media','blue'); ?>    
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

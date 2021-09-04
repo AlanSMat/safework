@@ -7,7 +7,6 @@
  */
 
 ?>
-
 <div id="primary">
     <main id="main" class="site-main" role="main">
         <div class="container">
