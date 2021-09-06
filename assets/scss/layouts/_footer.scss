@@ -16,13 +16,13 @@ footer {
         padding-left: 1.3rem;
         li {
             padding: .2rem 0;
-            a {
-                color: #fff;
-                text-decoration: none;
-            }
-            a:hover {
-                color: $color-grey-300;
-            }
         }
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $color-grey-300;
     }
 }

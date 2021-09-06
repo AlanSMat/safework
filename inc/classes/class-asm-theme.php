@@ -18,7 +18,7 @@ class ASM_THEME {
 		Assets::get_instance();
 		Menus::get_instance();
 		// Meta_Boxes::get_instance();
-		// Sidebars::get_instance();
+		Sidebars::get_instance();
 		// Blocks::get_instance();
 		// Block_Patterns::get_instance();
 
@@ -34,7 +34,9 @@ class ASM_THEME {
 	}
 
 	public function setup_theme() {
+		// Add support the title tags
 		add_theme_support( 'title-tag' );
+
 
 		add_theme_support( 'custom-logo', [
 			'header-text' => [ 'site-title', 'site-description' ],
@@ -44,10 +46,10 @@ class ASM_THEME {
 			'flex-width' => true
 		] );
 
-		add_theme_support( 'custom-background', [
-			'default-color' => '#f0f0f0',
-			'default-image' => ''
-		] );
+		// add_theme_support( 'custom-background', [
+		// 	'default-color' => '#f0f0f0',
+		// 	'default-image' => ''
+		// ] );
 		
 		add_theme_support( 'post-thumbnails' );
 		

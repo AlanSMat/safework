@@ -2,6 +2,7 @@
 
 .btn {
     background-color: $color-secondary;
+    border: 1px solid $color-secondary;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -11,4 +12,9 @@
 
 .btn-lg {
     padding: .5em 1.2em;
+    border: 1px solid $color-secondary;
+    &:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
 }

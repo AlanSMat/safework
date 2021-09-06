@@ -1,4 +1,5 @@
 <div class="social-media-icons"> 
+    <!-- facebook -->
     <a href="#" target="blank"> 
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="0 0 130.000000 130.000000" preserveAspectRatio="xMidYMid meet">
             <metadata> Created by potrace 1.16, written by Peter Selinger 2001-2019 </metadata>
@@ -14,6 +15,7 @@
             </g> 
         </svg> 
     </a> 
+    <!-- Instagram -->
     <a href="" target="blank"> 
         <svg xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="49.605 0 2834.65 2834.649"> 
             <circle cx="1466.93" cy="1417.324" r="1417.324" fill="#ADADAD"></circle> 
@@ -25,6 +27,7 @@
             </path>
         </svg>
     </a>
+    <!-- linked in -->
     <a href="" target="blank"> 
         <svg xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="0 0 512 512">
             <switch>
@@ -35,6 +38,7 @@
             </switch>
         </svg>
     </a> 
+    <!-- you tube -->
     <a href="#" target="blank">
         <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="20.000000pt" height="20.000000pt" viewBox="0 0 128 128">
             <circle cx="64" cy="64" r="64" fill="#ADADAD"></circle>

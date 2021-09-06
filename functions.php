@@ -21,6 +21,7 @@ require_once ASM_DIR_PATH . '/inc/helpers/autoloader.php';
 //require_once ASM_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function asm_get_theme_instance() {
+	// Instantiate main theme class
 	\ASM_THEME\Inc\ASM_THEME::get_instance();
 }
 
