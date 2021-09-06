@@ -467,6 +467,7 @@ header .content-page-header {
   position: relative;
   overflow: hidden;
   clear: both;
+  background-color: #999;
   text-align: center;
 }
 header .content-page-title {
